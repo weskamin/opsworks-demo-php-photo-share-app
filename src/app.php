@@ -93,3 +93,4 @@ $app->match('/add', function (Request $request) use ($app) {
 });
 
 $app->run();
+echo gethostname();
